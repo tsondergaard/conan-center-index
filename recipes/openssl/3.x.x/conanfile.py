@@ -29,6 +29,7 @@ class OpenSSLConan(ConanFile):
         "no_aria": [True, False],
         "no_asm": [True, False],
         "no_async": [True, False],
+        "no_autoload_config": [True, False],
         "no_blake2": [True, False],
         "no_bf": [True, False],
         "no_camellia": [True, False],

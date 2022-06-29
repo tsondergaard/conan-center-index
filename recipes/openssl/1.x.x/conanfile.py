@@ -98,6 +98,7 @@ class OpenSSLConan(ConanFile):
         "no_rsa": [True, False],
         "no_sha": [True, False],
         "no_async": [True, False],
+        "no_autoload_config": [True, False],
         "no_dso": [True, False],
         "no_aria": [True, False],
         "no_blake2": [True, False],
